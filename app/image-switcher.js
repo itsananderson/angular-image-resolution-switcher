@@ -1,3 +1,6 @@
+// This solution uses $rootScope to share global scope between controllers
+// It would be better to put this in a service, but this is just a proof of concept
+
 var imageSwitcher = angular.module('ImageSwitcher', []);
 
 imageSwitcher.run(function($rootScope, $window){
