@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Image Switcher Demo</title>
+</head>
+<body ng-app="ImageSwitcher">
+    <div ng-controller="SwitcherCtrl as vm">
+        <img ng-src="{{vm.imageUrl}}" />
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.13/angular.js"></script>
+    <script src="/app/image-switcher.js"></script>
+</body>
+</html>
